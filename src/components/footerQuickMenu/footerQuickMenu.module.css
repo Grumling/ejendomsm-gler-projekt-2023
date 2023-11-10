@@ -1,0 +1,104 @@
+.footerQuickMenuWrapper {
+  max-width: 100%;
+  padding: 56px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--font-color-ashGrey);
+}
+
+.footerQuickMenuWrapper img {
+  margin: 25px 0;
+  max-width: 100%;
+}
+
+.footerQuickMenuWrapper h3 {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.seperatorLine {
+  margin: 52px auto;
+  width: 80%;
+}
+
+.adressWrapper h2 {
+  padding-bottom: 11px;
+}
+
+.adressWrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contactWrapper h2 {
+  padding-bottom: 11px;
+}
+
+.contactWrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.quickMenuInputWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.quickMenuInput {
+  all: unset;
+  flex: 1; /* Take up remaining space */
+  padding: 5px;
+  border: solid 1px var(--font-color-ashGrey);
+  background-color: none;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  background: transparent;
+  box-shadow: 2px 2px 2px rgba(83, 83, 83, 0.3);
+}
+
+.quickMenuButton {
+  padding: 7px;
+  margin: 0 0 0 5px;
+  background: #dcf9d4;
+  color: var(--font-color-ashGrey);
+  border: solid 1px #1d5d27;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+/* ------------------------------------------- */
+
+/** BREAKPOINT DESKTOP */
+
+/* ------------------------------------------- */
+
+@media only screen and (min-width: 768px) {
+  .footerQuickMenuWrapper {
+    flex-direction: row;
+  }
+
+  .seperatorLine {
+    rotate: 90deg;
+    max-width: 10%;
+    margin: 0;
+  }
+
+  .contactWrapper,
+  .adressWrapper {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,78 @@
+.footerContainer {
+  background-color: #fff;
+  /* --- */
+}
+
+.footerWrapper {
+}
+
+.topContainer {
+  background: var(--bacgorund-color-Purple);
+  /* --- */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* --- */
+  padding: 37px 42px;
+  /* --- */
+  text-align: center;
+  color: var(--font-color-white);
+  text-align: center;
+}
+
+.topContainer h2 {
+  margin: 0 0 20px 0;
+}
+
+.topContainer p {
+  margin: 0 0 20px 0;
+}
+
+.bottomContainer {
+  background: var(--bacgorund-color-DarkPurple);
+  /* --- */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* --- */
+  padding: 37px 42px;
+  /* --- */
+  text-align: center;
+  color: var(--font-color-white);
+  text-align: center;
+}
+
+.soMeWrapper {
+  padding-top: 20px;
+}
+
+.someIocns svg {
+  height: 3em;
+  width: 3em;
+  padding: 10px 5px;
+}
+
+.contactWrapper p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  padding: 10px 0;
+}
+
+/* ------------------------------------------- */
+
+/** BREAKPOINT DESKTOP */
+
+/* ------------------------------------------- */
+
+@media only screen and (min-width: 768px) {
+  .topContainer p {
+    width: 30%;
+  }
+
+  .bottomContainer {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}

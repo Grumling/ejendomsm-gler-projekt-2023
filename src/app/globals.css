@@ -1,0 +1,46 @@
+:root {
+  --main-color: #f1f1f1;
+
+  --box-color: #fff;
+
+  --font-color-white: #ffffff;
+  --font-color-ashGrey: #606060;
+
+  --bacgorund-color-white: #ffffff;
+  --bacgorund-color-Purple: #421b4b;
+  --bacgorund-color-DarkPurple: #3c1844;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-color: #121212;
+
+    --box-color: rgb(38, 114, 114);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: var(--main-color);
+}
+
+body {
+  background-color: var(--main-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
