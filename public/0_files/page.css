@@ -1,0 +1,110 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_page__ZU32B {
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/components/heroSearchField/heroSearchField.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+.heroSearchField_heroSearchFieldContainer__gbDAc {
+  padding: 0 17px 0 17px;
+}
+
+.heroSearchField_searchWrapper__YmGhD {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin: 3px 0 10px 0;
+}
+
+.heroSearchField_searchLabel__mOVjS {
+  color: var(--font-color-white);
+  letter-spacing: 2px;
+}
+
+.heroSearchField_searchInput__x4G2l {
+  all: unset;
+  flex: 1 1; /* Take up remaining space */
+  padding: 5px;
+  border: none;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  box-shadow: 2px 2px 2px rgba(83, 83, 83, 0.3);
+}
+
+.heroSearchField_searchButton__aSJPU {
+  padding: 7px 10px;
+  margin: 0 0 0 5px;
+  background: var(--background-color-LightPurple);
+  color: var(--font-color-ashGrey);
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.heroSearchField_heroSearchFieldContainer__gbDAc button svg {
+  color: var(--font-color-white);
+}
+
+.heroSearchField_soMeSearch__d2_Rp svg {
+  height: 3em;
+  width: 3em;
+  padding: 10px 5px;
+  color: var(--font-color-white);
+}
+
+.heroSearchField_heroIntroText__5g4yR {
+  width: 100%;
+}
+
+.heroSearchField_heroIntroText__5g4yR h2 {
+  margin: 0 0 31px 0;
+  font-size: 1.875rem;
+  font-weight: 900;
+  color: var(--font-color-white);
+  letter-spacing: 2px;
+}
+
+.heroSearchField_heroIntroText__5g4yR p {
+  margin: 0 0 31px 0;
+  font-size: 0.875rem;
+  font-weight: 900;
+  color: var(--font-color-white);
+  letter-spacing: 2px;
+}
+
+.heroSearchField_heroIntroText__5g4yR h2:nth-of-type(2) {
+  color: var(--font-color-green);
+  letter-spacing: 2px;
+}
+
+.heroSearchField_heroImage__e8ROF {
+  display: flex;
+  justify-content: center;
+}
+
+.heroSearchField_heroImage__e8ROF img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  border: none;
+  object-position: center;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/components/hero/hero.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.hero_heroContainer__GLRJn {
+  height: auto;
+  background: var(--background-color-Purple);
+  width: 100%;
+}
+

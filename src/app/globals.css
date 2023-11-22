@@ -5,19 +5,14 @@
 
   --font-color-white: #ffffff;
   --font-color-ashGrey: #606060;
+  --font-color-green: #dcf9d4;
 
   --background-color-white: #ffffff;
   --background-color-Purple: #421b4b;
   --background-color-DarkPurple: #3c1844;
   --background-color-LightPurple: #6b4579;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --main-color: #121212;
-
-    --box-color: rgb(38, 114, 114);
-  }
+  --main-color: #ffffff;
 }
 
 * {
@@ -38,10 +33,4 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }

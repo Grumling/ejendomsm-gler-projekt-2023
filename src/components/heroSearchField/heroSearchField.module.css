@@ -1,0 +1,96 @@
+.heroSearchFieldContainer {
+  padding: 0 17px 0 17px;
+}
+
+.searchWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin: 3px 0 10px 0;
+}
+
+.searchLabel {
+  color: var(--font-color-white);
+  letter-spacing: 2px;
+}
+
+.searchInput {
+  all: unset;
+  flex: 1; /* Take up remaining space */
+  padding: 5px;
+  border: none;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  box-shadow: 2px 2px 2px rgba(83, 83, 83, 0.3);
+}
+
+.searchButton {
+  padding: 7px 10px;
+  margin: 0 0 0 5px;
+  background: var(--background-color-LightPurple);
+  color: var(--font-color-ashGrey);
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.heroSearchFieldContainer button svg {
+  color: var(--font-color-white);
+}
+
+.soMeSearch svg {
+  margin: 0 0 60px 0;
+}
+
+.soMeSearch svg {
+  height: 3em;
+  width: 3em;
+  padding: 10px 5px;
+  color: var(--font-color-white);
+}
+
+.heroIntroText {
+  width: 100%;
+}
+
+.heroIntroText h2 {
+  margin: 0 0 31px 0;
+  font-size: 1.875rem;
+  font-weight: 900;
+  color: var(--font-color-white);
+  letter-spacing: 2px;
+}
+
+.heroIntroText p {
+  margin: 60px 0 31px 0;
+  font-size: 0.875rem;
+  font-weight: 900;
+  color: var(--font-color-white);
+  letter-spacing: 2px;
+}
+
+.heroIntroText h2:nth-of-type(2) {
+  color: var(--font-color-green);
+  letter-spacing: 2px;
+}
+
+.heroImage {
+  display: flex;
+  justify-content: center;
+}
+
+.heroImage img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  border: none;
+  object-position: center;
+}
+
+.heroBottomField {
+  width: 100%;
+  background: var(--font-color-green);
+}

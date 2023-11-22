@@ -24,31 +24,36 @@ const HeaderComponent = () => {
 
       <div className={styles.navigationDesktop}>
 
-        <Link className={styles.dropdown} a href="/">Salg</Link>
+        <div className={styles.dropdown}>
+          <Link href="/">Salg</Link>
           <div className={styles.dropdownContent}>
-            <Link a href="/">Salgsvudering</Link>
-            <Link a href="/">Mit boligsalg</Link>
-            <Link a href="/">Find mægler</Link>
+            <Link href="/">Salgsvudering</Link>
+            <Link href="/">Mit boligsalg</Link>
+            <Link href="/">Find mægler</Link>
           </div>
+        </div>
 
-
-        <Link className={styles.dropdown} a href="/">Køb</Link>
+        <div className={styles.dropdown}>
+          <Link href="/">Køb</Link>
           <div className={styles.dropdownContent}>
-            <Link a href="/">Boligkøbet</Link>
-            <Link a href="/">Køberrådgivning</Link>
+            <Link href="/">Boligkøbet</Link>
+            <Link href="/">Køberrådgivning</Link>
           </div>
+        </div>
 
-        <Link a href="/">Leje</Link>
-        <Link a href="/">Blog</Link>
+        <Link className={styles.dropdown} href="/">Leje</Link>
 
-        <Link className={styles.dropdown} a href="/">Om os</Link>
+        <Link className={styles.dropdown} href="/">Blog</Link>
+
+        <div className={styles.dropdown}>
+          <Link href="/">Om os</Link>
           <div className={styles.dropdownContent}>
-            <Link a href="/">Kontakt</Link>
+            <Link href="/">Kontakt</Link>
           </div>
-         
+        </div>         
 
         <div>
-          <Link a href="/">Login</Link>
+          <Link className={styles.dropdown} href="/">Login</Link>
           <FaRegUser />
         </div>
 

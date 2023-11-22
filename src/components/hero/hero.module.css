@@ -1,0 +1,5 @@
+.heroContainer {
+  height: auto;
+  background: var(--background-color-Purple);
+  width: 100%;
+}
