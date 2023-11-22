@@ -1,0 +1,9 @@
+.ButtonGreen {
+  padding: 7px;
+  margin: 0 0 0 5px;
+  background: #dcf9d4;
+  color: var(--font-color-ashGrey);
+  border: solid 1px #1d5d27;
+  border-radius: 5px;
+  font-weight: 700;
+}

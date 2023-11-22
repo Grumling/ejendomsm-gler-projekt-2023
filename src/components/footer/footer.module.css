@@ -7,7 +7,7 @@
 }
 
 .topContainer {
-  background: var(--bacgorund-color-Purple);
+  background: var(--background-color-Purple);
   /* --- */
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@
 }
 
 .bottomContainer {
-  background: var(--bacgorund-color-DarkPurple);
+  background: var(--background-color-DarkPurple);
   /* --- */
   display: flex;
   flex-direction: column;

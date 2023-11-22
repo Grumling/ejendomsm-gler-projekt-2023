@@ -6,9 +6,10 @@
   --font-color-white: #ffffff;
   --font-color-ashGrey: #606060;
 
-  --bacgorund-color-white: #ffffff;
-  --bacgorund-color-Purple: #421b4b;
-  --bacgorund-color-DarkPurple: #3c1844;
+  --background-color-white: #ffffff;
+  --background-color-Purple: #421b4b;
+  --background-color-DarkPurple: #3c1844;
+  --background-color-LightPurple: #6b4579;
 }
 
 @media (prefers-color-scheme: dark) {

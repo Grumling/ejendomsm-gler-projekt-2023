@@ -1,5 +1,94 @@
 .headerContainer {
-  background-color: lime;
-  height: 12vh;
-  width: 100vw;
+  height: 90px;
+  width: 100%;
+  background-color: var(--background-color-DarkPurple);
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bars {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  color: var(--font-color-white);
+}
+
+.mobileOverlay {
+  position: absolute;
+  top: -500px;
+  background: var(--background-color-Purple);
+  height: auto;
+  width: 100%;
+  color: var(--font-color-white);
+  transition: 0.25s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.mobileOverlay a {
+  color: var(--font-color-white);
+  font-size: 1.2rem;
+  font-weight: 900;
+  padding: 15px 0;
+}
+
+.mobileOverlay.openOverlay {
+  top: 90px; /* O is default position I.E 300Px down.  */
+}
+
+.navigationDesktop {
+  display: none;
+}
+
+/* ------------------------------------------- */
+
+/** BREAKPOINT DESKTOP */
+
+/* ------------------------------------------- */
+
+@media only screen and (min-width: 768px) {
+  .bars {
+    display: none;
+  }
+
+  .headerContainer {
+    justify-content: flex-end;
+    padding-right: 30px;
+  }
+
+  .headerLogo {
+    position: absolute;
+    left: 30px;
+  }
+
+  .navigationDesktop {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .navigationDesktop a {
+    font-size: 1.1rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .navigationDesktop > div > svg {
+    margin-left: 5px;
+    margin-right: 15px;
+  }
+
+  /* ------------------------------------------- */
+
+  /** NAV DROP DOWN */
+
+  /* ------------------------------------------- */
 }
